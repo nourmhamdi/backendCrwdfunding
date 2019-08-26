@@ -20,7 +20,7 @@ contract ClientSC is Owned {
         
 //-----------------------------events--------------------------
 
-     event newProjectRequest (address,  string);
+     event newProjectRequest (address add,  string  title);
 
       using sharedLib for sharedLib.Contribution;
     // using sharedLib for sharedLib.Reward; 

@@ -1,4 +1,5 @@
-package wrappers;
+
+package crowdfunding.dapp.crowdfundingdapp.wrappers;
 
 import io.reactivex.Flowable;
 import java.math.BigInteger;

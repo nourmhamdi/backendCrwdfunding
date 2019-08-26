@@ -1,4 +1,6 @@
 package crowdfunding.dapp.crowdfundingdapp.Models;
 
-public class RoleName {
+
+public enum RoleName {
+    ROLE_USER
 }

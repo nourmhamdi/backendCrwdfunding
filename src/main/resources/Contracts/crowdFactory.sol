@@ -22,7 +22,7 @@ contract CrowdFactory{
 //----------------------event   --------------------   
     event registred(address contractAddress, address publickey, uint userId ) ;
 // event projectAdded(address contractAddress, address porteur, uint pID ) ;
-    event loggedin(address ,uint);
+    event loggedin(address add ,uint id);
 
 //----------------------verifier l'existance d'un utilisateur -----------------------------------------
 //verifier si l'addresse de l'utilisateur existe 
