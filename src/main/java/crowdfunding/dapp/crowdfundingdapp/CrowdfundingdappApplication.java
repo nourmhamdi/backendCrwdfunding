@@ -2,6 +2,7 @@ package crowdfunding.dapp.crowdfundingdapp;
 
 //import crowdfunding.dapp.crowdfundingdapp.DAO.ClientRepository;
 
+import crowdfunding.dapp.crowdfundingdapp.services.wrappers.WrapperContractFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,13 +10,16 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class CrowdfundingdappApplication {
+//    private ClientRepository Clientrep;
+
 
     @Autowired   //pour faire l'injection des dependances
-//    private ClientRepository Clientrep;
 
     public static void main(String[] args) {
 
+
         SpringApplication.run(CrowdfundingdappApplication.class, args);
+
     }
 
 //    @Override
